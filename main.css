@@ -6,7 +6,6 @@
   color: white;
   width: 100vw;
   height: 43vh;
-  margin-top: 2.8em;
   position: relative;
 }
 
@@ -85,7 +84,7 @@
   margin: 0.5em 0;
 }
 
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
   .plan_list {
     width: 100%;
     text-align: center;

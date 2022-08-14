@@ -8,6 +8,13 @@ body {
   overflow-x: hidden;
 }
 
+/* 100vh is vw height, 3.5rem is nav header height, footer is 9rem  */
+/* So footer is always at the bottom  */
+main {
+  min-height: calc(100vh - 3.125rem - 5.8rem);
+  margin-top: 3.5rem;
+}
+
 .backdrop {
   position: fixed;
   display: none;
@@ -55,8 +62,7 @@ body {
   color: #0e4f1f;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
-  height: 1.5em;
+  height: 2.5em;
   display: inline-block;
   vertical-align: middle;
 }
